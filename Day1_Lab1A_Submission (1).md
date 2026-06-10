@@ -1,4 +1,4 @@
-# Day 1 — Lab 1A: AI Playground
+# Day 1 — Lab 1A:
 ## 4-Tool Comparison — Submission Document
 
 **Name:** HADASSA KUNISETTY     **Roll Number:** 23MH1A05M8   **Date:** 08-06-2026
