@@ -99,12 +99,12 @@ A self-hosted, automated workflow that fetches daily placement and tech news via
 1.  **Start n8n Instance:**
 ```bash
     docker compose -f n8n_docker-compose.yml up -d
-    ```
+```
 2.  **Configure Workflow:** Imported and wired the nodes on `localhost:5678`.
 3.  **Prompt Optimization:** Integrated a custom system prompt within the Groq payload to restrict summaries to 5 bullets (≤ 20 words per bullet) focusing on hiring, layoffs, and tech demand.
 4.  **Activation:** Set Cron expression to `0 7 * * *` and toggled the workflow to **Active**.
 
----
+
 
 ## 📦 Deliverables
 
