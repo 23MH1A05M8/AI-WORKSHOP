@@ -75,3 +75,42 @@ Build an AI-powered resume extraction pipeline that converts unstructured resume
 * LeetCode discussions
 * AmbitionBox
 * LinkedIn job postings
+
+# Day 4 — Lab 4B: n8n Daily News Digest
+
+A self-hosted, automated workflow that fetches daily placement and tech news via RSS, processes and summarizes the text using the Groq API, and emails a concise 5-bullet digest every morning.
+
+---
+
+## 🛠️ Tech Stack & Workflow
+
+*   **Host:** Self-hosted via Docker (`docker-compose`)
+*   **Automation Engine:** n8n
+*   **LLM API:** Groq (`api.groq.com/openai/v1/chat/completions`)
+*   **Delivery:** Gmail / SMTP Node
+
+### Workflow Architecture
+`Schedule Trigger (7:00 AM IST)` ➔ `RSS Read Node` ➔ `HTTP Request (Groq API)` ➔ `Gmail / SMTP Send Node`
+
+---
+
+## 🚀 Setup & Execution
+
+1.  **Start n8n Instance:**
+```bash
+    docker compose -f n8n_docker-compose.yml up -d
+    ```
+2.  **Configure Workflow:** Imported and wired the nodes on `localhost:5678`.
+3.  **Prompt Optimization:** Integrated a custom system prompt within the Groq payload to restrict summaries to 5 bullets (≤ 20 words per bullet) focusing on hiring, layoffs, and tech demand.
+4.  **Activation:** Set Cron expression to `0 7 * * *` and toggled the workflow to **Active**.
+
+---
+
+## 📦 Deliverables
+
+*   ✅ **Workflow JSON:** [Day4_NewsDigest.json](Day4_NewsDigest.json)
+*   ✅ **Status:** Active & Automated
+
+### Verification Screenshot
+
+![Test Email Receipt](n8n.png)
