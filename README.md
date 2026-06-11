@@ -51,7 +51,7 @@ Build an AI-powered resume extraction pipeline that converts unstructured resume
 
 ![Day2_ResumeExtractorJSON](Day2_ResumeExtractorJSON.png)
 
-## Day4 Productivity Sprint
+## Day4A - Productivity Sprint
 
 **Company:** Amazon (SDET Intern)
 
