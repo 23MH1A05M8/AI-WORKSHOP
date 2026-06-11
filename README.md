@@ -50,3 +50,28 @@ Build an AI-powered resume extraction pipeline that converts unstructured resume
 ![Day2_ResumeExtractor](Day2_ResumeExtractor.png)
 
 ![Day2_ResumeExtractorJSON](Day2_ResumeExtractorJSON.png)
+
+## Day4 Productivity Sprint
+
+**Company:** Amazon (SDET Intern)
+
+### Edit Notes
+
+1. Verified interview process using Amazon careers information and candidate interview experiences.
+2. Compensation figures varied across sources; marked as "[verify with official offer letter]".
+3. Replaced Gamma's generic cover title with "Build Quality at Scale — Launch Your SDET Career at Amazon".
+
+### Files
+
+* `Day4_Amazon_brief.pdf`
+* `Day4_AMAZON_deck.pdf`
+
+### Sources
+
+* Amazon Careers
+* Amazon Jobs
+* Glassdoor interviews
+* GeeksforGeeks interview experiences
+* LeetCode discussions
+* AmbitionBox
+* LinkedIn job postings
