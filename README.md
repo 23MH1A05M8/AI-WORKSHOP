@@ -114,4 +114,7 @@ A self-hosted, automated workflow that fetches daily placement and tech news via
 ### Verification Screenshot
 
 ![Test Email Receipt](n8n.png)
-![Test Email Receipt](MailAutomationProof.jpeg)
+
+![Test Email Receipt](MailAutomationProof.png)
+
+![Test Email Receipt](Mailcontext.png)
