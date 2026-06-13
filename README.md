@@ -179,10 +179,10 @@ Compare Hugging Face models using local inference and understand the trade-offs 
 ![Resume Classification](Resumeanayalsis.png)
 
 ### Sentiment Analysis
-![Sentiment Analysis](Sentiment Analysis.png)
+![Sentiment Analysis](Sentiment_Analysis.png)
 
 ### Timing Results
-![Timing Results](Timing Results.png)
+![Timing Results](Timing_Results.png)
 
 ## Reflection
 
