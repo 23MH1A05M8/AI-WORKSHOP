@@ -176,7 +176,7 @@ Compare Hugging Face models using local inference and understand the trade-offs 
 ![Model Loading](Modelsucessful.png)
 
 ### Resume Classification
-![Resume Classification](Resumeanalyasis.png)
+![Resume Classification](Resumeanayalsis.png)
 
 ### Sentiment Analysis
 ![Sentiment Analysis](Sentiment_Analysis.png)
