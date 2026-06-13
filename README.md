@@ -136,7 +136,7 @@ A self-hosted, automated workflow that fetches daily placement and tech news via
 - **What Continue.dev did well:** Scaffolded the Streamlit layout fast and generated both the bar chart and learning resources sections in one prompt update.
 - **What I had to fix:** Continue.dev introduced indentation errors when adding new features — had to manually correct the prompt block and missing skills section back to the right indent level. Also had to switch from Gemini to Groq due to 503 availability issues, and update the model from the decommissioned llama3-8b-8192 to llama-3.1-8b-instant.
 
-![Resume Fit Score](daily_digest_resume_fit_score.png)
+![Resume Fit Score](daily_digest_resume_fit_score.jpeg)
 
 # Day 5 Lab 5B — Hugging Face Pulls
 
