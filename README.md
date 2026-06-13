@@ -118,3 +118,75 @@ A self-hosted, automated workflow that fetches daily placement and tech news via
 ![Test Email Receipt](MailAutomation.png)
 
 ![Test Email Receipt](Mailcontext.png)
+
+
+# Day 5 Lab 5B — Hugging Face Pulls
+
+## Objective
+
+Compare Hugging Face models using local inference and understand the trade-offs between API-based and local model execution.
+
+## Models Tested
+
+### 1. Zero-Shot Classification
+
+* Model: `facebook/bart-large-mnli`
+* Task: Resume classification
+
+### 2. Sentiment Analysis
+
+* Model: `distilbert-base-uncased-finetuned-sst-2-english`
+* Task: Interview answer sentiment detection
+
+---
+
+## Resume Classification Results
+
+| Resume Skill              | Predicted Role     |
+| ------------------------- | ------------------ |
+| React Dashboards          | Frontend Developer |
+| Spring Boot Microservices | Backend Developer  |
+| PyTorch CNN               | ML Engineer        |
+| Pandas + Seaborn          | Data Analyst       |
+| PostgreSQL Optimization   | Backend Developer  |
+
+---
+
+## Sentiment Analysis Results
+
+| Interview Response          | Sentiment |
+| --------------------------- | --------- |
+| Enjoyed working on the team | Positive  |
+| Everyone else was slow      | Negative  |
+| Learned a lot from mentor   | Positive  |
+| Teammate's work was wrong   | Negative  |
+| Internship was great        | Positive  |
+
+---
+
+## Timing Comparison
+
+| Method                | Min   | Avg   | Notes                                          |
+| --------------------- | ----- | ----- | ---------------------------------------------- |
+| HF Inference API      | N/A   | N/A   | API endpoint resolution issue in Colab runtime |
+| Local Colab Inference | 0.85s | 0.87s | Model already loaded in memory                 |
+
+---
+### Model Loading
+![Model Loading](screenshots/Modelsucessful.png)
+
+### Resume Classification
+![Resume Classification](screenshots/Resumeanalysis.png)
+
+### Sentiment Analysis
+![Sentiment Analysis](screenshots/sentiment Analysis.png)
+
+### Timing Results
+![Timing Results](screenshots/Timing Results.png)
+
+## Reflection
+
+1. Hugging Face API is useful for lightweight applications because no model download is required.
+2. Local inference is suitable for repeated or batch processing once the model has been downloaded.
+3. Sentiment models detect surface tone rather than speaker intent, which is important when evaluating interview responses.
+
