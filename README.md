@@ -122,7 +122,7 @@ A self-hosted, automated workflow that fetches daily placement and tech news via
 
 ## Day 5A — Résumé Scorer Streamlit
 
-**Live URL:** [https://<your-app>.streamlit.app](https://resumescorer-q8c9sdqbvznp9pkema5ptv.streamlit.app/)
+**Live URL:** [https://<your-app>.streamlit.app](https://resume-scorer-kkaftbsmwjdnupaqiqk2o9.streamlit.app/)
 **Code:** app.py  |  **Acceptance log:** acceptance_log.md
 **Tools:** Continue.dev + Groq (llama-3.1-8b-instant) + Streamlit Community Cloud
 
