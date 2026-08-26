@@ -15,6 +15,7 @@ Public portfolio of 12-day AI Trainer Workshop. By Day 12: 6 daily notebooks + c
 
 - ✅ Hello-Groq call working — see [Day1_Setup_groq.ipynb](Day1_Setup_groq.ipynb)
   
+  
 ![Groq first call](groq_first_call.png)
 
 - 4-tool comparison matrix from Lab 1A: see screenshot below
